@@ -4,4 +4,5 @@ public class Shooter{
 		if(instance == null) instance = new Shooter();
 		return instance;
 	}
+	//asdf
 }
