@@ -1,6 +1,6 @@
 public class TeleOp{
     public static TeleOp instance;
-    public static Climber getInstance() {
+    public static TeleOp getInstance() {
 		if(instance == null) instance = new TeleOp();
 		return instance;
 	}
