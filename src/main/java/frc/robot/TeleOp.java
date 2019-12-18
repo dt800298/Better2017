@@ -7,4 +7,7 @@ public class TeleOp{
 			return instance;
 		
 	}
+	public static TeleOp run(){
+		//controls here
+	}
 }
