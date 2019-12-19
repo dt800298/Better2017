@@ -7,7 +7,7 @@
 
 package frc.robot;
 
-import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.IterativeRobot;//x
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -87,6 +87,7 @@ public class Robot extends IterativeRobot {
    */
   @Override
   public void teleopPeriodic() {
+    TeleOp.run();
   }
 
   /**
