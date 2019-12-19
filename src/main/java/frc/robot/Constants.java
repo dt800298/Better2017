@@ -5,7 +5,8 @@ public class Constants {
 	public static final int XB_POS_DRIVER = 0;
 	public static final int XB_POS_MANIP = 1;
 	//DriveTrain 
-	public static final int DT_TALONID_RIGHTFRONT = 4;
+    public static final int DT_TALONID_RIGHTFRONT = 4;
+    
 	public static final int DT_TALONID_RIGHTBACK = 5;
 	public static final int DT_TALONID_RIGHTMINI = 6;
 	public static final int DT_TALONID_LEFTFRONT = 8;
