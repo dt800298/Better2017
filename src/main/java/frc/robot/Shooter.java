@@ -1,5 +1,6 @@
 package frc.robot;
 
+import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 
 public class Shooter {
@@ -18,7 +19,15 @@ public class Shooter {
 
 	public Shooter(){
 		conva = new TalonSRX(Constants.SHOOT_TALONID_TALONCONVA);
+		elev = new TalonSRX(Constants.SHOOT_TALONID_TALONELEVATOR);
+		shoot1 = new TalonSRX(Constants.SHOOT_TALONID_TALONLEFT);
+		shoot2 = new TalonSRX(Constants.SHOOT_TALONID_TALONRIGHT);
 
+
+	}
+
+	public static void shoot(double power){
+		elev.set(ControlMode.PercentOutput,.3);
 	}
 
 }
